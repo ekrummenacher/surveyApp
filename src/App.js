@@ -15,7 +15,7 @@ var config = {
   firebase.initializeApp(config);
 
 class App extends Component {
-  
+
 constructor(props){
       super(props);
       this.state = {
@@ -122,9 +122,9 @@ constructor(props){
           <input type="radio" name="q5" value="Dolly Parton" onChange={this.handleQuestionChange} />Dolly Parton<br/>
           <input type="radio" name="q5" value="Michael Jackson" onChange={this.handleQuestionChange} />Michael Jackson<br/>
           <input type="radio" name="q5" value="Frank Sinatra" onChange={this.handleQuestionChange} />Emmy-Lou Harris<br/>
-          <input type="radio" name="q5" value="I live under a rock and don't know these singers" onChange={this.handleQuestionChange} />I live under a rock and don't know these singers<br/>
+          <input type="radio" name="q5" value="I live under a rock and do not know these singers" onChange={this.handleQuestionChange} />I live under a rock and do not know these singers<br/>
         </div>
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" /> 
         </form>
       </span>
 
